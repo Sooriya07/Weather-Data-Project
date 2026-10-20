@@ -1,0 +1,23 @@
+# API keys and secrets
+.env
+.env.*
+!.env.example
+docker/.env
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# PostgreSQL data
+postgres/data/
+
+# Airflow logs
+airflow/logs/
+
+# dbt generated files
+dbt/logs/
+dbt/target/
+dbt/.user.yml
+dbt/profiles.yml
+dbt/logs/
